@@ -19,11 +19,6 @@ A high-performance, role-based mobile application built with **React Native** an
 * **Icons:** Material Community Icons (@expo/vector-icons)
 * **Styling:** StyleSheet API with Platform-specific padding adjustments for Android notches and iOS status bars.
 
-## 📱 Screenshots
-
-| Dashboard | Diet Plan | Profile |
-| :---: | :---: | :---: |
-| ![Home](https://via.placeholder.com/200x400?text=Dashboard) | ![Diet](https://via.placeholder.com/200x400?text=Diet+Plan) | ![Profile](https://via.placeholder.com/200x400?text=Profile) |
 
 ## ⚙️ Installation & Setup
 
