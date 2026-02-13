@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# Nexturea Gym Member App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A high-performance, role-based mobile application built with **React Native** and **Expo**. This application serves as a centralized dashboard for gym members to track their fitness progress, manage nutrition, view attendance logs, and handle membership payments within a unified, seamless UI.
 
-## Get started
+## 🌟 Key Features
 
-1. Install dependencies
+* **Role-Based Navigation:** Specialized entry points and dashboards for both Members and Trainers.
+* **Persistent Navigation System:** Custom-engineered internal sub-view routing that ensures bottom navigation tabs remain visible and functional across Attendance, Diet, and Payment screens.
+* **Diet & Nutrition Module:** Structured daily meal plans categorized by Breakfast, Snacks, Lunch, and Dinner with integrated trainer notes.
+* **Attendance Tracking:** Detailed check-in history featuring "Present" and "Absent" status badges and monthly summary statistics.
+* **Membership Profile:** A comprehensive profile management screen displaying member ID, plan details, and contact info.
+* **Notification Center:** A categorized alert system for membership expiries, updated diet plans, and gym announcements with platform-specific UI optimizations.
+* **Secure Session Management:** A global logout flow that safely resets the application state and clears user roles.
 
+## 🛠️ Tech Stack
+
+* **Frontend Framework:** React Native (Expo)
+* **State Management:** React Hooks (`useState`, `useEffect`)
+* **Icons:** Material Community Icons (@expo/vector-icons)
+* **Styling:** StyleSheet API with Platform-specific padding adjustments for Android notches and iOS status bars.
+
+## 📱 Screenshots
+
+| Dashboard | Diet Plan | Profile |
+| :---: | :---: | :---: |
+| ![Home](https://via.placeholder.com/200x400?text=Dashboard) | ![Diet](https://via.placeholder.com/200x400?text=Diet+Plan) | ![Profile](https://via.placeholder.com/200x400?text=Profile) |
+
+## ⚙️ Installation & Setup
+
+Follow these steps to get the project running locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Gaurav6278/Nexturea-Member-App.git
+
+2. **Install dependencies:**
    ```bash
    npm install
-   ```
 
-2. Start the app
-
+3. **Start the development server:**
    ```bash
    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
