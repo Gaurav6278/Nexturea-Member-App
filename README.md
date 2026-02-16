@@ -19,7 +19,6 @@ A high-performance, role-based mobile application built with **React Native** an
 * **Icons:** Material Community Icons (@expo/vector-icons)
 * **Styling:** StyleSheet API with Platform-specific padding adjustments for Android notches and iOS status bars.
 
-
 ## ⚙️ Installation & Setup
 
 Follow these steps to get the project running locally:
